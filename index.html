@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adrian Rwambiwa architectural portfolio">
+  <title>Adrian Rwambiwa | Architecture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#home" class="logo">AKR.</a>
+  <nav>
+    <a href="#work">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="home">
+
+<section class="hero">
+  <p class="eyebrow">ARCHITECTURE / DESIGN / TECHNOLOGY</p>
+  <h1 id="hero-name">Adrian Rwambiwa<span>.</span></h1>
+  <p id="hero-tagline">Architectural Technology & Design</p>
+  <a href="#work" class="explore">EXPLORE SELECTED WORK ↓</a>
+  <p class="hero-note">Spaces, ideas and technical explorations.</p>
+</section>
+
+<section id="work" class="section">
+  <p class="eyebrow">01 / PORTFOLIO</p>
+  <h2>Selected Projects<span>.</span></h2>
+  <div id="project-grid" class="project-grid">
+    Loading projects...
+  </div>
+</section>
+
+<section id="about" class="about section">
+  <p class="eyebrow">02 / ABOUT</p>
+  <h2>Design thinking.<br>Technical precision.</h2>
+  <p id="about-location"></p>
+  <p>
+    Exploring architecture through spatial thinking,
+    materiality, environmental responsiveness and
+    technical design.
+  </p>
+</section>
+
+<section id="contact" class="contact section">
+  <p class="eyebrow">03 / CONTACT</p>
+  <h2>Let's create<br>something meaningful<span>.</span></h2>
+  <div class="contact-links">
+    <a id="email-link" href="#">Email ↗</a>
+    <a id="whatsapp-link" href="#">WhatsApp ↗</a>
+    <a id="cv-link" href="assets/cv.pdf">Download CV ↗</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <span>AKR. ARCHITECTURE</span>
+  <span>© <span id="year"></span> ALL RIGHTS RESERVED</span>
+</footer>
+
+<div id="project-modal" class="modal">
+  <div class="modal-content">
+    <button id="close-modal" aria-label="Close">×</button>
+    <p id="modal-category" class="eyebrow"></p>
+    <h2 id="modal-title"></h2>
+    <p id="modal-description"></p>
+    <p id="modal-meta"></p>
+    <div id="modal-images"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
